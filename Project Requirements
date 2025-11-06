@@ -1,0 +1,42 @@
+Project Requirements
+Arthur Kot, Hannah Speranza, Gabriela Zabiegaj, Aubrey Brown 
+Engineering Requirements
+ER1: The drone model shall have 6 degrees of freedom (center of mass motion plus attitude) and account for gravity and lift generated from 4 rotors.
+This is x, y, z; yaw, pitch, roll
+Can maybe steal equations of motion from the final project for ae353?
+ER2: The drone model shall be able to modify its state and attitude solely through increasing or decreasing the number of revolutions per second of its 4 rotor blades, as determined by the motor torques.
+I’m not sure how to verify this? State-space model? Did he discuss this in class? Potentially the eye diagram he keeps showing off? 
+Discussion with team
+ER3: The modeled drone shall be able to achieve the performance goals as outlined in section 4, without exhausting its power supply.
+Hover 1m above ground for 2 minutes. 
+Fly in a circle of radius 2m, at an altitude of 1m above ground at a speed of 0.5m/s for at least 1 minute. 
+Launch from ground and ascend vertically until 1m above ground. Move in a straight line 1m above ground at an average speed of 1m/s for 5m, stop (hover), yaw 90 deg to the left, move in another straight line for 5m, stop (hover), land vertically with a speed of no more than 1cm/s. 
+Research COTS components to determine power supply size and battery size
+ER4: The model as determined through its parameters such as mass, power consumption, engine torques and rotor blade size shall be realistic and implementable, preferably through the use of off-the-shelf parts. In particular, the mass of the drone shall be between 0.1kg and 10kg.
+This can be done, just need to do preliminary research into COTS drone parts
+Reporting Requirements
+RR1: The team shall compile a report containing the following sections: 
+List of team members, 
+Introduction to the problem (0.5 - 2 pages), 
+A mathematical description of the problem and the model (5 pages max), 
+A detailed description of the results discussing model performance (5 pages max), 
+A list of actual contributions of team members (1 page max), 
+References (if needed, no page limit). 
+A valid proposal contains all sections and has at least 5 pages. 
+This is all just formatting, can be done with LaTex Hannah Speranza
+RR2: The report shall be written in 11pt font (except headings) with 1.0 line spacing. 
+AIAA formatting requirement, easy dub
+RR3: The equations of motion for the drone have to be presented as mathematical formulae with all quantities and variables explained in the text. 
+Easy, just list all important variables in nomenclature in LaTex
+RR4: Visualization of the model performance shall be provided in the form of plots e.g. for each degree of freedom vs time, or through alternative means of visualization. 
+Using matplotlib? Easy dub, won’t have to develop a graphics engine like for 353 😭
+RR5: Code that has been developed in the framework of this project has to be submitted via a link to a GitHub repository. 
+Easy dub
+RR6: A complete Preliminary Design Review draft of the report shall be delivered electronically to Gradescope by the corresponding project deadline, see section 7. 
+See RR6
+RR7: Preliminary Design Reviews of 3 other team reports shall be delivered electronically to Gradescope by the corresponding project deadline, see section 7. 
+I think this is in class? idk
+RR8: The final report shall be delivered electronically to Gradescope by the corresponding project deadline, see section 7. 
+Self-explanatory, easy dub
+RR9: Every team member shall upload copies of their team report and work-plan to Gradescope by the respective deadline. Group submissions are acceptable. Late submissions will not be accepted.
+Self-explanatory, easy dub
