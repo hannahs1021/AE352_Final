@@ -1,0 +1,36 @@
+“The model, as determined through its parameters such as mass, power consumption, engine torques, and rotor blade size, shall be realistic and implementable, preferably through the use of off-the-shelf parts. In particular, the mass of the drone shall be between 0.1kg and 10kg.”
+
+
+https://www.bjplatedrones.com/Q4105_Small_Four-axis.html
+Q4105 Small Four-axis:
+Net weight: 5.4 kg
+Power system: 180KV motor + 80A ESC
+Battery life is 6-20 hours
+Idk how to find engine torque??
+Propeller blade size: 24 inches
+Hover 1m above ground for 2 minutes. (can for 42 minutes)
+Fly in a circle of radius 2m, at an altitude of 1m above ground, at a speed of 0.5m/s for at least 1 minute. (max speed is 20, so I wanna assume yes?)
+Launch from the ground and ascend vertically until 1m above ground. Move in a straight line 1m above ground at an average speed of 1m/s for 5m, stop (hover), yaw 90 deg to the left, move in another straight line for 5m, stop (hover), land vertically with a speed of no more than 1cm/s. (max descent speed is 8 m/s)
+I’m gonna assume it can do the other stuff cause it’s a drone
+
+https://www.potensic.com/npublic/opdfjs/web/viewer.html?file=https%3A%2F%2Fomo-oss-file110.thefastfile.com%2Fportal-saas%2Fpg2024050909140579882%2Fcms%2Ffile%2Fpotensic_atom_2_user_manual_en_202509.pdf
+Potensic Atom 2:
+Net weight: .245 kg lol
+Power system: smart battery DSBT02B
+Don’t know the battery life, the remote is 4 hours, so I'm gonna assume that
+Convinced engine torque isn’t a thing
+Propeller blade size: 119.4×63.8 mm HAHHAHA (diameter x thread pitch)
+Hover 1m above ground for 2 minutes. (can for 29 minutes)
+Fly in a circle of radius 2m, at an altitude of 1m above ground, at a speed of 0.5m/s for at least 1 minute. (max speed is 10, so I wanna assume yes?)
+Launch from the ground and ascend vertically until 1m above ground. Move in a straight line 1m above ground at an average speed of 1m/s for 5m, stop (hover), yaw 90 deg to the left, move in another straight line for 5m, stop (hover), land vertically with a speed of no more than 1cm/s. (max descent speed is  4 m/s) (mechanical range: Tilt: -125° to +45° Roll: ±45° Pan: ±30°)
+
+https://www.dji.com/mini-2-se/specs 
+DJi mini SE drone:
+Net weight: .246 kg
+Power system: capacity is 2250 mAh, and it’s a Li-ion battery 
+Battery life is 4-6 hours
+Engine torque? Who’s she
+Propeller blade size: 4.7x2.6"
+Hover 1m above ground for 2 minutes. (can for 31  minutes)
+Fly in a circle of radius 2m, at an altitude of 1m above ground, at a speed of 0.5m/s for at least 1 minute. (max speed is 16, so I wanna assume yes?)
+Launch from the ground and ascend vertically until 1m above ground. Move in a straight line 1m above ground at an average speed of 1m/s for 5m, stop (hover), yaw 90 deg to the left, move in another straight line for 5m, stop (hover), land vertically with a speed of no more than 1cm/s. (max descent speed is 3.5 m/s)(mechanical range: Tilt: -110° to 35°, Roll: -35° to 35 °, Pan: -20° to 20°)
